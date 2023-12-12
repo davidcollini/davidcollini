@@ -1,0 +1,4 @@
+baseURL = 'https://davidcollini.github.io/davidcollini/'
+languageCode = 'en-us'
+title = 'David Collini'
+theme = "poison"
