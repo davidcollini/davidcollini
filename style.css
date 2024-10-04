@@ -1,0 +1,241 @@
+    body {
+      background-color: black;
+    }
+    .Profile_Pic {
+      border-radius: 10px;
+      border-color: white;
+      text-align: center;
+    }
+    .nav.open {
+    display: block;
+    }
+    .header {
+      overflow: hidden;
+      color: white;
+      background-color: black;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 2;
+    }
+    .Resume {
+      text-align: center;
+    }
+    
+    .logo {
+      display: flex;
+      align-items: center;
+      z-index: 2;
+      color: white;
+    }
+    
+    .logo-img {
+      width: 64px;
+      height: 64px;
+      margin-right: 10px;
+      z-index: 2;
+    }
+    
+    .logo-title{
+      margin: 0;
+      z-index: 2;
+      text-decoration: none;
+      color: white;
+      font-size: 30px;
+    }
+    
+    .menu-toggle {
+      display: none;
+      background: none;
+      border: none;
+      font-size: 29px;
+      cursor: pointer;
+      z-index: 2;
+      padding-left: 15px;
+      padding-right: 15px;
+      color: white;
+    }
+    
+    .nav {
+      display: flex;
+      justify-content: space-between;
+    }
+    
+    .nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+    
+    .nav li {
+      margin-right: 20px;
+    }
+    
+    .link-header {
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+      line-height: 25px;
+      border-radius: 4px;
+    }
+    
+    /* Mobile styles */
+    @media only screen and (max-width: 690px) {
+      .menu-toggle {
+          display: block;
+          color: white;
+          font-size: 50px;
+      }
+      .nav {
+        position:absolute;
+        width: 100vw;
+        height:0px;
+        top: 90px;
+        justify-content: center;
+        background-color: #000000;
+        visibility: collapse;
+        transition: all 0.4s;
+        z-index: 1;
+        overflow: hidden;
+        padding: 0px;
+        border-bottom: 5px;
+        border-color: white;
+      }
+      .Profile_Pic {
+        text-align: center;
+        
+      }
+      .open {
+        visibility: visible;
+        height: 45vh;
+      }
+      .nav ul {
+          flex-direction: column;
+          align-items: center;
+          width: 100vw;
+      }
+      .nav li {
+          margin: 20px 0;
+      }
+      .link-header {
+          font-size: 24px;
+      }
+      .Comparison_Chart {
+      font-size: 12px;
+      }
+      .service-title {
+        font-size: 10px;
+      }
+      .service-logo {
+        height: 25px;
+      }
+      td {
+        font-size: 10px;
+        min-width: 40px;
+      }
+      .checkmark {
+        height: 15px;
+        width: 15px
+      }
+      .X-icon {
+        height: 15px;
+        width: 15px
+      }
+  }
+  .service-title {
+      text-decoration: none;
+      color: rgb(0, 0, 0);
+      font-weight: normal;
+      vertical-align: top;
+      position: sticky;
+      top: 0px;
+      background-color: #fff;
+  }
+      .tooltip {
+          position: relative;
+          display: inline-block;
+          border-bottom: 1px dotted rgb(68, 68, 68);
+          color: white;
+        }
+        
+        .tooltip .tooltiptext {
+          background-color: rgb(56, 56, 56);
+          border-radius: 6px;
+          color: #fff;
+          flex-direction: column;
+          min-width: 50px;
+          padding: 5px;
+          position: absolute;
+          visibility: collapse;
+          text-align: start;
+          transform: translate(0px, -12px);
+          width: max-content;
+          z-index: 1;
+        }
+        
+        .tooltip:active {
+          visibility: visible;
+        }
+
+        .Chart-link {
+          text-decoration: none;
+          padding-left: 10px;
+        }
+        .HiddenLink {
+          color: white;
+        }
+        .homepagelink {
+          text-decoration: none;
+        }
+        .greyrow {
+          background-color: #f1f1f1;
+        }
+        .Comparison_Chart {
+          border-collapse: collapse;
+          max-width: 1080px; 
+          width: 100vw;
+          margin: 0 auto; 
+          overflow: hidden;
+        }
+        body { 
+            max-width: 1080px; 
+          min-width: 360px;
+          width: 100%;
+            margin: 0 auto !important; 
+            float: none !important; 
+
+        }
+        td {
+          min-width: 100px;
+          width: 60px;
+          height: 25px;
+        }
+        th {
+          min-width: 5px;
+
+          width: 10%;
+          height: 25px;
+        }
+        h1 {
+          padding-left: 10px;
+          color: white;
+          max-width: 800px;
+        }
+        p {
+          padding-left: 10px;
+          color: white;
+        }
+        h2 {
+          padding-left: 10px;
+        }
+        h3 {
+          padding-left: 10px;
+        }
+        .code {
+          max-width: 80vw;
+          overflow-wrap: anywhere;
+          overflow: auto;
+        }
+
+
