@@ -1,5 +1,9 @@
     body {
       background-color: black;
+      color: white;
+    }
+    a {
+      color: white;
     }
     .Profile_Pic {
       border-radius: 10px;
@@ -9,7 +13,7 @@
     .nav.open {
     display: block;
     }
-    .header {
+    header {
       overflow: hidden;
       color: white;
       background-color: black;
