@@ -22,11 +22,11 @@
 
     }
 
-    .icon-nav ul {
+    .icon-nav {
         list-style: none;
         padding: 0;
         display: flex;
-
+        margin-top: 10px;
     }
 
     .icon-nav li {
