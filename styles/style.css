@@ -8,8 +8,6 @@
     }
 
     .Profile_Pic {
-        border-radius: 10px;
-        border-color: white;
         text-align: center;
     }
 
@@ -224,4 +222,46 @@
         max-width: 80vw;
         overflow-wrap: anywhere;
         overflow: auto;
+    }
+    .comparison-boxes {
+      padding-left: 25px;
+      padding-right: 25px;
+      display: grid;
+      gap: 20px;
+      grid-template-columns: 1fr;
+      justify-content: center;
+      align-items: center;
+      justify-items: center; /* This centers the grid items horizontally */
+    }
+    
+    .comparison-box {
+      background-image: linear-gradient(to bottom, #323333, #646a6d);
+      transition: background-image 0.4s, font-size 0.4s;
+      border: 2px solid rgb(122, 122, 122);
+      border-radius: 1rem;
+      padding-bottom: 20px;
+      text-align: center;
+      width: 100%;
+      max-width: 700px;
+      min-height: 150px;
+      text-decoration: none;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .comparison-box:hover {
+      background-image: linear-gradient(to bottom, #2b2c2c, #404648);
+      font-size: large;
+    }
+    
+    .comparison-box h2 {
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+      transition: font-size 0.4s;
+    }
+    
+    .comparison-box:hover h2 {
+      font-size: 21px;
     }
