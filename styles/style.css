@@ -19,25 +19,26 @@
         justify-content: center;
         align-items: center;
         text-align: center;
+
     }
 
     .icon-nav ul {
         list-style: none;
-        margin: 0;
         padding: 0;
         display: flex;
-        align-items: center;
-        text-align: center;
+
     }
 
     .icon-nav li {
         margin-right: 6px;
         margin-left: 6px;
         align-items: center;
+
     }
 
     .icon-nav img {
         height: 35px;
+
     }
 
     .icon-nav a {
@@ -47,6 +48,7 @@
         font-size: 18px;
         line-height: 25px;
         height: 10px;
+
     }
 
     .nav.open {
@@ -55,7 +57,6 @@
 
     header {
         overflow: hidden;
-        color: white;
         background-color: black;
         display: flex;
         justify-content: space-between;
@@ -63,15 +64,10 @@
         z-index: 2;
     }
 
-    .Resume {
-        text-align: center;
-    }
-
     .logo {
         display: flex;
         align-items: center;
         z-index: 2;
-        color: white;
     }
 
     .logo-img {
@@ -85,7 +81,6 @@
         margin: 0;
         z-index: 2;
         text-decoration: none;
-        color: white;
         font-size: 30px;
     }
 
@@ -98,7 +93,6 @@
         z-index: 2;
         padding-left: 15px;
         padding-right: 15px;
-        color: white;
     }
 
     .nav {
@@ -149,11 +143,6 @@
             border-color: white;
         }
 
-        .Profile_Pic {
-            text-align: center;
-
-        }
-
         .open {
             visibility: visible;
             height: 45vh;
@@ -173,32 +162,8 @@
             font-size: 24px;
         }
 
-        .Comparison_Chart {
-            font-size: 12px;
-        }
 
-        .service-title {
-            font-size: 10px;
-        }
 
-        .service-logo {
-            height: 25px;
-        }
-
-        td {
-            font-size: 10px;
-            min-width: 40px;
-        }
-
-        .checkmark {
-            height: 15px;
-            width: 15px
-        }
-
-        .X-icon {
-            height: 15px;
-            width: 15px
-        }
     }
 
     .service-title {
@@ -211,36 +176,7 @@
         background-color: #fff;
     }
 
-    .tooltip {
-        position: relative;
-        display: inline-block;
-        border-bottom: 1px dotted rgb(68, 68, 68);
-        color: white;
-    }
 
-    .tooltip .tooltiptext {
-        background-color: rgb(56, 56, 56);
-        border-radius: 6px;
-        color: #fff;
-        flex-direction: column;
-        min-width: 50px;
-        padding: 5px;
-        position: absolute;
-        visibility: collapse;
-        text-align: start;
-        transform: translate(0px, -12px);
-        width: max-content;
-        z-index: 1;
-    }
-
-    .tooltip:active {
-        visibility: visible;
-    }
-
-    .Chart-link {
-        text-decoration: none;
-        padding-left: 10px;
-    }
 
     .HiddenLink {
         color: white;
@@ -254,14 +190,6 @@
         background-color: #f1f1f1;
     }
 
-    .Comparison_Chart {
-        border-collapse: collapse;
-        max-width: 1080px;
-        width: 100vw;
-        margin: 0 auto;
-        overflow: hidden;
-    }
-
     body {
         max-width: 1080px;
         min-width: 360px;
@@ -269,19 +197,6 @@
         margin: 0 auto !important;
         float: none !important;
 
-    }
-
-    td {
-        min-width: 100px;
-        width: 60px;
-        height: 25px;
-    }
-
-    th {
-        min-width: 5px;
-
-        width: 10%;
-        height: 25px;
     }
 
     h1 {
