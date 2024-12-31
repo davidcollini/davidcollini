@@ -1,4 +1,4 @@
 This is a Brave Creators publisher verification file.
 
-Domain: davidcollini.pages.dev
-Token: ababcefbac9a565b98aea8ab193e9e72a646cccbc3ddc06605c5ea770a617a46
+Domain: davidcollini.dev
+Token: 8b9aac6afb7060a992519da24c0de7c3e33e34d2a5e9fc4f2ba0d6038ee0fbc1
