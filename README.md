@@ -7,4 +7,4 @@ Background:
 Current Roles:
 + **Technical Communicator** @ Sovereign-Engineering ([Obscura VPN](https://obscura.net))
 
-+ **Lead Maintainer** @ [SoftwareCompare](https://github.com/davidcollini/SoftwareCompare)
++ **Creator** of [SoftwareCompare](https://github.com/davidcollini/SoftwareCompare)
